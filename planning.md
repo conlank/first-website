@@ -4,6 +4,10 @@
 
 Font: futura-pt, 300 weight, 1.6em line height 0.01em letter spacing
 
+font-family: futura-pt, sans-serif;
+font-style: normal;
+font-weight: 300;
+
 font color:  black
 
 img background: perlin noise field
@@ -17,6 +21,10 @@ font: futura-pt, 300 weight, 24pt
 
 ## p text
 
-font: nimbus-sans
+
+font-family: nimbus-sans, sans-serif;
+font-style: normal;
+font-weight: 300;
+
 font color: dark grey
 14pt
