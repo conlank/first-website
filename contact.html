@@ -13,8 +13,39 @@
             <a href="links.html" class="links">Inspiration</a>
             <a href="contact.html" class="contact-link">Contact</a>
         </div>
-        <fieldset class="comment-box">
+        <div class="contact-form">
+            <form action="/form-handling-url" method="post">
+                <fieldset>
+                    <legend>Contact</legend>
 
-        </fieldset>
+                    <div>
+                        <label for="user_name">Name</label>
+                        <br>
+                        <input type="text" id="userName" name="user_name">
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <br>
+                        <input type="email" id="email" name="email_address">
+                    </div>
+
+                    <div>
+                        <label for="comments">Comments/Critiques</label>
+                        <br>
+                        <textarea id="comments" name="comments"></textarea>
+                    </div>
+
+                    <div>
+                        <label for="verify">verify sending feedback</label>
+                        <input type="checkbox" id="verify" name="verify_send">
+                    </div>
+
+                    <div>
+                        <button type="submit">submit comments</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
     </body>
 </html>
