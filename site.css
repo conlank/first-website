@@ -30,6 +30,7 @@
 
 .img-header > img{
     flex: 1;
+    width: auto;
 }
 
 .index-contents{
