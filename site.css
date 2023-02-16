@@ -1,7 +1,7 @@
 .navbar {
-    background-image: url("images/navbar_light_bkg.png");
+    /* background-image: url("images/navbar_light_bkg.png"); */
     height: 60px;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     width: auto;
     display: flex;
     align-items: center;
@@ -19,6 +19,18 @@
     text-decoration: none;
     text-transform: lowercase;
     /* border-left: 2px solid black; */
+}
+
+.navbar::before{
+    content: "";
+    background-image: url("images/navbar_light_bkg.png");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
 }
 
 .img-header{
