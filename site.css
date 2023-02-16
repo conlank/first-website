@@ -9,6 +9,7 @@
 }
 
 .navbar > a{
+    position: relative;
     flex: 1;
     text-align: center;
     font: 1.5em "Nimbus Sans", sans-serif;
@@ -24,7 +25,8 @@
 .navbar::before{
     content: "";
     background-image: url("images/navbar_light_bkg.png");
-    background-size: cover;
+    background-size: auto 60px;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0px;
     right: 0px;
