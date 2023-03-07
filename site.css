@@ -162,17 +162,15 @@ textarea {
 
 
 .gallery{
-    display: grid;
-    grid-template:
-        ". a b c ." 45%
-        ". d e f ." 20% / 1fr 1fr 1fr 1fr 1fr;
-    gap: 30px;
-    margin: 5% 2%;
-    /* grid-auto-rows: 200px; */
-    /* grid-auto-columns: 200px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin: 5% 2%; */
+    padding: 5% 12%;
     }
 
 .gallery img{
     width: 250px;
     height: 250px;
+    padding: 15px
 }
