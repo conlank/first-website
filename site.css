@@ -33,6 +33,7 @@
     bottom: 10px;
     left: 10px;
     opacity: 0.75;
+    z-index: -1;
 }
 
 .img-header{
@@ -172,5 +173,14 @@ textarea {
 .gallery img{
     width: 250px;
     height: 250px;
-    padding: 15px
+    /* margin: 20px; */
+    display: block;
+    align-items: center;
+}
+.gallery a{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    display: block;
+    align-items: center;
 }
